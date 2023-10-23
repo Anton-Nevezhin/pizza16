@@ -6,6 +6,7 @@ interface DisplayPizzasProps {
     pizzasList: Pizza[];
     updatePizza: (newPizza: Pizza) => void; //сохраняем редактирование
     deletePizza: (id: number) => void; //удаляем пиццу
+// </div>
 }
 
 const DisplayPizzas: FC<DisplayPizzasProps> = ({ pizzasList, updatePizza, deletePizza }) => {
